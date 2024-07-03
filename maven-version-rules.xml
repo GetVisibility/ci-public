@@ -3,10 +3,14 @@
          xsi:schemaLocation="https://www.mojohaus.org/VERSIONS/RULE/2.1.0 https://www.mojohaus.org/versions/versions-model/xsd/rule-2.1.0.xsd">
     <ignoreVersions>
         <ignoreVersion type="regex">.*RC.*</ignoreVersion>
+        <ignoreVersion type="regex">.*rc.*</ignoreVersion>
         <ignoreVersion type="regex">.*alpha.*</ignoreVersion>
         <ignoreVersion type="regex">.*ALPHA.*</ignoreVersion>
         <ignoreVersion type="regex">.*beta.*</ignoreVersion>
         <ignoreVersion type="regex">.*BETA.*</ignoreVersion>
+        <ignoreVersion type="regex">.*Beta.*</ignoreVersion>
+        <ignoreVersion type="regex">.*M1.*</ignoreVersion>
+        <ignoreVersion type="regex">.*M2.*</ignoreVersion>
     </ignoreVersions>
     <rules>
         <rule groupId="org.apache.poi" artifactId="poi" comparisonMethod="maven">
