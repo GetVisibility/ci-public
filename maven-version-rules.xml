@@ -12,7 +12,9 @@
         <rule groupId="org.apache.poi" artifactId="poi" comparisonMethod="maven">
         </rule>
         <rule groupId="org.apache.poi" comparisonMethod="maven">
-            <ignoreVersion type="range">[2.0.0,)</ignoreVersion>
+            <ignoreVersions>
+                <ignoreVersion type="range">[1.0.0,)</ignoreVersion>
+            </ignoreVersions>
         </rule>
     </rules>
 </ruleset>
