@@ -9,6 +9,10 @@
         <ignoreVersion type="regex">.*BETA.*</ignoreVersion>
     </ignoreVersions>
     <rules>
-        <rule groupId="org.apache.poi" artifactId="poi" comparisonMethod="maven"/>
+        <rule groupId="org.apache.poi" artifactId="poi" comparisonMethod="maven">
+            <ignoreVersions>
+                <ignoreVersion type="range">[1.0.0,)</ignoreVersion>
+            </ignoreVersions>
+        </rule>
     </rules>
 </ruleset>
