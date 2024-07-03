@@ -10,6 +10,7 @@
         <ignoreVersion type="regex">.*BETA.*</ignoreVersion>
         <ignoreVersion type="regex">.*Beta.*</ignoreVersion>
         <ignoreVersion type="regex">.*M[1-9]$</ignoreVersion>
+        <ignoreVersion type="regex">.^200(2|3).*</ignoreVersion>
     </ignoreVersions>
     <rules>
         <rule groupId="org.apache.poi" artifactId="poi" comparisonMethod="maven">
