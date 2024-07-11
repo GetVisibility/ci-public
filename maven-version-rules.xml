@@ -18,5 +18,10 @@
                 <ignoreVersion type="range">[1.0.0,)</ignoreVersion>
             </ignoreVersions>
         </rule>
+        <rule groupId="co.elastic.clients" artifactId="elasticsearch-java" comparisonMethod="maven">
+            <ignoreVersions>
+                <ignoreVersion type="range">[1.0.0,)</ignoreVersion>
+            </ignoreVersions>
+        </rule>
     </rules>
 </ruleset>
