@@ -23,5 +23,10 @@
                 <ignoreVersion type="range">[1.0.0,)</ignoreVersion>
             </ignoreVersions>
         </rule>
+        <rule groupId="com.google.protobuf" artifactId="protobuf-java" comparisonMethod="maven">
+            <ignoreVersions>
+                <ignoreVersion type="range">[1.0.0,)</ignoreVersion>
+            </ignoreVersions>
+        </rule>
     </rules>
 </ruleset>
