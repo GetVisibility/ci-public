@@ -38,5 +38,10 @@
                 <ignoreVersion type="range">[1.0.0,)</ignoreVersion>
             </ignoreVersions>
         </rule>
+        <rule groupId="org.apache.lucene" artifactId="lucene-queryparser" comparisonMethod="maven">
+            <ignoreVersions>
+                <ignoreVersion type="range">[1.0.0,)</ignoreVersion>
+            </ignoreVersions>
+        </rule>
     </rules>
 </ruleset>
