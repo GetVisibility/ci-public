@@ -43,5 +43,10 @@
                 <ignoreVersion type="range">[1.0.0,)</ignoreVersion>
             </ignoreVersions>
         </rule>
+        <rule groupId="io.minio" artifactId="minio" comparisonMethod="maven">
+            <ignoreVersions>
+                <ignoreVersion type="range">[8.5.12,)</ignoreVersion>
+            </ignoreVersions>
+        </rule>
     </rules>
 </ruleset>
