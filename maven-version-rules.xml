@@ -64,5 +64,10 @@
                 <ignoreVersion type="range">[5.0.0,)</ignoreVersion>
             </ignoreVersions>
         </rule>
+        <rule groupId="org.apache.flink" artifactId="flink-clients" comparisonMethod="maven">
+            <ignoreVersions>
+                <ignoreVersion type="range">[2.0.0,)</ignoreVersion>
+            </ignoreVersions>
+        </rule>
     </rules>
 </ruleset>
