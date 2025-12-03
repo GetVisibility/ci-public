@@ -69,6 +69,11 @@
                 <ignoreVersion type="range">[2.0.0,)</ignoreVersion>
             </ignoreVersions>
         </rule>
+        <rule groupId="org.springframework.cloud" artifactId="spring-cloud-contract-wiremock" comparisonMethod="maven">
+            <ignoreVersions>
+                <ignoreVersion type="range">[5.0.0,)</ignoreVersion>
+            </ignoreVersions>
+        </rule>
         <!--        Pause spring boot 4 till it is more tested-->
         <rule groupId="org.springframework.boot" artifactId="spring-boot-starter-parent" comparisonMethod="maven">
             <ignoreVersions>
