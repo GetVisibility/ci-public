@@ -1,4 +1,4 @@
-Use these guidelines when generating codeor checking PRs:
+Use these guidelines when generating code or checking PRs:
 
 ## Formatting
 
