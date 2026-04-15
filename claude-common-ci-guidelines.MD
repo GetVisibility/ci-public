@@ -15,3 +15,5 @@ Use these guidelines when generating code or checking PRs:
 - Constructor injection only — no `@Autowired` field injection
 - SLF4J for logging — never `System.out.println`
 - Separate request/response DTOs — never expose entities directly
+- Always add Javadoc comments to every method you generate, explaining what the method does, its parameters, and its return value.
+
