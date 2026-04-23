@@ -3,7 +3,7 @@ Use these guidelines when generating code or checking PRs:
 ## Formatting
 
 - Google Java Format — version from `pom.xml` (`google-java-format.version`)
-- Run `mvn spotless:apply` before every commit
+- Run `./mvnw spotless:apply` before every commit
 - Keep file-level and function-level comments up to date
 
 ## Design
