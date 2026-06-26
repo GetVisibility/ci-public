@@ -87,5 +87,15 @@
             </ignoreVersions>
         </rule>
 
+        <!-- eido-detectors-history: ignore git-sha-qualified dev builds (1.0.N-<sha7>)
+             published by DS-ai branch CI. A git-sha is an unknown Maven qualifier, so it
+             sorts ABOVE the release (1.0.70-6c88f14 > 1.0.70); without this the auto-bump
+             would adopt a dev build over the clean release. Scoped to this artifact. -->
+        <rule groupId="com.forcepoint.eido" artifactId="eido-detectors-history" comparisonMethod="maven">
+            <ignoreVersions>
+                <ignoreVersion type="regex">.*-[0-9a-f]{7,}</ignoreVersion>
+            </ignoreVersions>
+        </rule>
+
     </rules>
 </ruleset>
